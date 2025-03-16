@@ -1,0 +1,35 @@
+.auth-card {
+    width: 100%;
+    max-width: 500px; /* Increased width */
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    padding: 30px;
+  }
+  
+  @media (min-width: 400px) {
+    .auth-card {
+      max-width: 400px; /* Even wider for desktop screens */
+    }
+  }
+  
+  .auth-card h2 {
+    font-weight: bold;
+  }
+  
+  .auth-card p {
+    font-size: 14px;
+  }
+  
+  button {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    transform: scale(1.02);
+  }
+  
+  .text-muted {
+    font-size: 0.9rem;
+  }
+  
